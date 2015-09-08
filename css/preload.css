@@ -1,0 +1,43 @@
+/* Font imports */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+/* Preloader */
+.preload-content {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+.preload-bar {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    margin-top: -3px;
+}
+.preload-bar .preload-value {
+    display: block;
+    width: 0;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #000;
+}
+.preload-loader {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 100px;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 98px;
+    text-align: center;
+    margin: -50px 0 0 -60px;
+    color: #000;
+}

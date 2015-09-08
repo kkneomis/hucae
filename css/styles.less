@@ -1,0 +1,204 @@
+/* Import lesshat */
+@import "lesshat.less";
+
+/* Flex slider resets */
+.carousel .left-arrow, .carousel .right-arrow {
+    .transition-duration(0.25s);
+}
+.flexslider .arrows .left-arrow, .flexslider .arrows .right-arrow {
+    .transition-duration(0.25s);
+}
+
+/* Form elements */
+input[type="text"], textarea {
+    .box-shadow(~"inset 0 2px 3px rgba(0, 0, 0, 0.1)");
+}
+
+/* Header navigation */
+.navbar-nav > li > a, .navbar-nav .submenu a {
+    .transition-duration(0.25s);
+}
+
+/* Buttons */
+.button, .button:hover {
+    .box-shadow(~"0 1px 2px rgba(0, 0, 0, 0.25)");
+}
+
+/* Social icons */
+.social {
+    .transition-duration(0.25s);
+}
+
+/* FlexSlider resets */
+.flexslider {
+    .box-shadow(none);
+}
+
+/* Pricing tables */
+.pricing-table.pricing-table-lead {
+    .box-shadow(~"0 0 9px rgba(0,0,0,0.2)");
+}
+
+/* Testimonials slider */
+.testimonials {
+    .box-shadow(~"0 0 2px rgba(0, 0, 0, 0.5)");
+}
+.testimonials .left-arrow, .testimonials .right-arrow, .text .left-arrow, .text .right-arrow, .slide .left-arrow, .slide .right-arrow {
+    .transition-duration(0.25s);
+}
+
+/* User profile */
+.profile .overlay {
+    .transition-duration(1s);
+}
+.profile .overlay li {
+    .opacity(0);
+    .translateY(50px);
+    .transition-duration(0.5s);
+}
+.profile:hover .overlay li {
+    .opacity(1);
+    .translateY(0);
+}
+.profile .overlay li:nth-child(1n) {
+    .transition-delay(0.1s);
+}
+.profile .overlay li:nth-child(2n) {
+    .transition-delay(0.2s);
+}
+.profile .overlay li:nth-child(3n) {
+    .transition-delay(0.3s);
+}
+.profile .overlay li:nth-child(4n) {
+    .transition-delay(0.4s);
+}
+.profile .overlay li:nth-child(5n) {
+    .transition-delay(0.5s);
+}
+.profile .overlay li:nth-child(6n) {
+    .transition-delay(0.6s);
+}
+.profile .overlay li:nth-child(7n) {
+    .transition-delay(0.7s);
+}
+.profile .overlay li:nth-child(8n) {
+    .transition-delay(0.8s);
+}
+.profile .overlay li:nth-child(9n) {
+    .transition-delay(0.9s);
+}
+.profile .overlay li:nth-child(10n) {
+    .transition-delay(1s);
+}
+.profile:hover .info {
+    .box-shadow(~"none");
+}
+.profile .info, .profile .info strong {
+    .transition-duration(0.25s);
+}
+
+/* Tabs */
+.nav-pills>li>a, .nav-pills>li>a:hover, .nav-pills>li>a:focus, .tab-boxed {
+    .box-shadow(~"0 0 2px rgba(0, 0, 0, 0.5)");
+}
+
+/* Accordion */
+.panel {
+    .box-shadow(~"none");
+}
+
+/* Tags */
+.tag {
+    .transition-duration(0.25s);
+    .box-shadow(~"0 0 2px rgba(0, 0, 0, 0.5)");
+}
+.tag:hover, .tag:active, .tag:focus {
+    .box-shadow(~"none");
+}
+
+/* Portfolio */
+.portfolio .item .overlay > li > a {
+    .transition-duration(0.25s);
+}
+
+/* Logo slider */
+.logo-slider {
+    .box-shadow(~"inset 0 2px 3px rgba(0, 0, 0, 0.1)");
+}
+
+/* Search form */
+.search {
+    .box-shadow(~"inset 0 2px 3px rgba(0, 0, 0, 0.1)");
+}
+.search input {
+    .box-shadow(~"none");
+}
+
+/* Blog Article */
+article .info {
+    .box-shadow(~"0 0 2px rgba(0, 0, 0, 0.5)");
+}
+article .info .item .fa {
+    .transition-duration(0.25s);
+}
+
+/* More link */
+.more {
+    .transition-duration(0.25s);
+}
+
+/* Pagination */
+.pagination a {
+    .transition-duration(0.25s);
+}
+
+/* Comments */
+.comments .reply {
+    .transition-duration(0.25s);
+}
+
+/* Service box */
+.service-box, .service {
+    .transition-duration(0.25s);
+}
+.service-box:hover .service-circle, .service-horizontal:hover .service-circle, .service-circle:hover {
+    .box-shadow(~"inset #fff 0 0 0 2px");
+}
+
+/* Skill */
+.skill {
+    .box-shadow(~"inset 0 2px 5px rgba(0, 0, 0, 0.05)");
+}
+.skill .value {
+    .box-shadow(~"inset 0 2px 5px rgba(0, 0, 0, 0.2)");
+}
+
+/* Skill circle */
+.skill-circle .circle .left .wrap, .skill-circle .circle .right .wrap {
+    .rotate(-180deg);
+}
+
+/* Mega menu */
+.navbar-nav .megamenu .mega .list a {
+    .transition-duration(0.25s);
+}
+
+/* Revolution Slider */
+.slider .tp-caption-boxed {
+    .box-shadow(~"2px 2px 3px rgba(0, 0, 0, 0.2)");
+}
+
+/* Responsive styles */
+@media screen and (min-width: 768px) {
+    /* Header navigation */
+    .navbar-nav .submenu ul, .navbar-nav .megamenu > .mega > .container {
+        .box-shadow(2px 2px 10px rgba(0, 0, 0, 0.3));
+    }
+    .navbar-nav .submenu > ul, .navbar-nav .megamenu > .mega {
+        .opacity(0);
+        .transition-duration(0.25s);
+    }
+    .navbar-nav .submenu.show > ul, .navbar-nav .megamenu.show > .mega {
+        .opacity(1);
+    }
+}

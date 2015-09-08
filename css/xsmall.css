@@ -1,0 +1,4 @@
+/* Portfolio */
+.portfolio.portfolio-wide .item, .portfolio.portfolio-wide .item .profile, .portfolio.portfolio-wide .item > .info {
+    max-width: none;
+}

@@ -1,0 +1,158 @@
+/* Common styles and typography */
+.no-gutter-left {
+    padding-left: 0;
+}
+.no-gutter-right {
+    padding-right: 0;
+}
+
+/* Header logo */
+.navbar > .container .navbar-brand {
+    height: 101px;
+}
+
+/* Header logo */
+.navbar > .container .navbar-brand {
+    margin-left: 0;
+}
+
+/* Header navigation */
+.navbar {
+    border-top: transparent 4px solid;
+    min-height: 101px;
+}
+.navbar-nav {
+    margin-top: -4px;
+}
+.navbar-nav .submenu > ul, .navbar-nav .megamenu > .mega {
+    margin-top: 20px;
+}
+.navbar-nav .submenu.show > ul, .navbar-nav .megamenu.show > .mega {
+    margin-top: 0;
+}
+.navbar-nav .megamenu {
+    position: static;
+}
+.navbar-nav .megamenu .mega {
+    position: absolute;
+    top: 101px;
+    left: 0;
+    width: 100%;
+}
+.navbar-nav .megamenu .mega .container {
+    background: #fff;
+    border-top: transparent 2px solid;
+}
+.navbar-nav .megamenu .mega .colored h4 {
+    margin-top: -20px;
+    padding-top: 17px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+}
+.navbar-nav .submenu, .navbar-nav .submenu li {
+    position: relative;
+}
+.navbar-nav .megamenu > .mega {
+    display: none !important;
+}
+.navbar-nav .submenu ul {
+    display: none !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+.navbar-nav .submenu > ul {
+    top: 105px;
+    left: 20px;
+    border-top: transparent 2px solid;
+}
+.navbar-nav .submenu:hover > ul, .navbar-nav .submenu li:hover > ul, .navbar-nav .megamenu:hover > .mega {
+    display: block !important;
+    z-index: 4000;
+}
+.navbar-nav  > li > a, .navbar-nav  > li > a:hover, .navbar-nav  > li > a:focus, .navbar-nav > li > a:active,
+.navbar-nav  > li.submenu > a, .navbar-nav  > li.submenu > a:hover, .navbar-nav  > li.submenu > a:focus, .navbar-nav > li.submenu > a:active {
+    height: 105px;
+    line-height: 101px;
+    border-top: transparent 4px solid;
+    margin-left: 20px;
+    padding: 0;
+}
+.navbar-nav  > li.megamenu > a, .navbar-nav  > li.megamenu > a:hover, .navbar-nav  > li.megamenu > a:focus, .navbar-nav > li.megamenu > a:active,
+.navbar-nav  > li.submenu > a, .navbar-nav  > li.submenu > a:hover, .navbar-nav  > li.submenu > a:focus, .navbar-nav > li.submenu > a:active {
+    padding-right: 13px;
+}
+.navbar-nav > li.active > a, .navbar-nav > li:hover > a {
+    background-color: transparent !important;
+}
+.navbar-nav .submenu > a, .navbar-nav .megamenu > a {
+    background-image: url('../img/nav-hover-arrow.png');
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+.navbar-nav .submenu:hover > a, .navbar-nav .megamenu:hover > a {
+    background-position: center -10px;
+}
+.navbar-nav .megamenu > .mega > .container, .navbar-nav .submenu ul, .navbar-nav .submenu ul > li:last-child, .navbar-nav .submenu ul > li:last-child > a {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.navbar-nav .submenu li > ul {
+    left: 100%;
+    padding-left: 0;
+}
+.navbar-nav .submenu ul {
+    background: #fff;
+}
+.navbar-nav .submenu ul li > a, .navbar-nav .submenu ul li > a:hover, .navbar-nav .submenu ul li > a:focus, .navbar-nav .submenu ul li > a:active {
+    min-width: 150px;
+    height: 38px;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: none;
+    color: #545454;
+    padding: 0 34px 0 15px;
+    border-top: #eee 1px solid;
+}
+.navbar-nav .submenu ul li:first-child > a, .navbar-nav .submenu ul li:first-child > a:hover, .navbar-nav .submenu ul li:first-child > a:focus, .navbar-nav .submenu ul li:first-child > a:active {
+    border-top: 0;
+}
+.navbar-nav .submenu ul li.active > a, .navbar-nav .submenu ul li:hover > a, .navbar-nav .submenu ul li:hover > a:hover {
+    color: #000;
+}
+.navbar-nav .megamenu > a .arrow, .navbar-nav .submenu > a .arrow {
+    right: 0;
+}
+.navbar-nav .submenu ul a .arrow {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 4px;
+    height: 100%;
+    margin-left: 5px;
+    background: url('../img/submenu-sub-arrow.png') right center no-repeat;
+}
+.navbar-nav .submenu a:hover .arrow, .navbar-nav .submenu .active > a .arrow, .navbar-nav .submenu .active > a:hover .arrow, .navbar-nav .megamenu.show > a .arrow {
+    background-image: url('../img/submenu-arrow.png');
+}
+
+/* Breadcrumbs */
+.breadcrumbs .crumbs {
+    margin-top: -4px;
+    float: right;
+}
+
+/* Comments */
+.comments ul {
+    margin-left: 80px;
+}
+
+/* 404 Not Found */
+.error-404 {
+    width: 372px;
+    height: 162px;
+    background: url('../img/404.png') center center no-repeat;
+}
